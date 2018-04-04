@@ -1,0 +1,13 @@
+{
+  "description": "TimeHH registration system",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram",
+  "appid": "wxd72886bed08deabb",
+  "projectname": "timehh",
+  "miniprogramRoot": "./dist"
+}
