@@ -1,0 +1,27 @@
+<style lang="less">
+.title{
+  color: aqua;
+  font-size: 70rpx;
+}
+</style>
+
+<template>
+  <view class="container">
+    <view class="title">logs</view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Index extends wepy.page {
+    config = {
+      navigationBarTitleText: 'LOGS'
+    }
+    data = {
+    }
+    onLoad() {
+      console.log('LOGSonLoad')
+    }
+  }
+</script>
